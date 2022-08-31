@@ -107,9 +107,9 @@ screens = [
                     colour_have_updates = update_color,
                     colour_no_updates = fg_color,
                     no_update_string = '0',
-                    display_format = 'Updates: {updates}',
-                    update_interval = 100,
-                    distro = 'Arch_checkupdates'
+                    display_format = '{updates}',
+                    update_interval = 1800,
+                    custom_command = 'checkupdates',
                 ),
                 half_circle(group_update, 1),
                 separation(),
